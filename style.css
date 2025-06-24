@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #0d0d0d;
+  color: #00ffe1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(20, 20, 20, 0.9);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px #00ffe1;
+}
+
+#joke-box {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 16px;
+  border: 1px solid #00ffe1;
+  min-height: 100px;
+  box-shadow: 0 0 15px #00ffe1 inset;
+}
+
+#setup {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #39ff14;
+  text-shadow: 0 0 5px #39ff14;
+}
+
+#punchline {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ff00ff;
+  text-shadow: 0 0 5px #ff00ff;
+}
+
+button {
+  padding: 12px 28px;
+  font-size: 16px;
+  background-color: transparent;
+  color: #00ffe1;
+  border: 2px solid #00ffe1;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 0 10px #00ffe1;
+}
+
+button:hover {
+  background-color: #00ffe1;
+  color: #0d0d0d;
+  box-shadow: 0 0 25px #00ffe1, 0 0 50px #00ffe1;
+}
